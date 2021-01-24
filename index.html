@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Alexandre Luís</title>
+
+    <!--BOOTSTRAP CSS FILE-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--MAGNIFIC POPUP CSS FILE-->
+    <link rel="stylesheet" href="./vendor/magnificPopup/dist/magnific-popup.css">
+
+    <!--OWL CAROUSEL CSS FILE-->
+    <link rel="stylesheet" href="./vendor/owlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owlCarousel/css/owl.theme.default.min.css">
+
+    <!--YOUTUBE-OVERLAY (video effects) CSS FILE-->
+    <link rel="stylesheet" href="./vendor/youtubeOverlay/css/youtube-overlay.css">
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <!--CUSTOM CSS FILE-->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- ============START HEADER AREA==============-->
+    <div class="container">
+        <div class="header_area mt-2">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" id="img_logotipo">
+                    <img src="./img/logo.png" alt="Logótipo Alex">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item mr-auto">
+                            <a class="nav-link" href="#home" id="home_1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" id="about_1">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" id="skills_1">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services" id="services_1">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio" id="portfolio_1">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#clients" id="clients_1">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" id="contact_1">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="modal" data-target="#exitModal">Exit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" id="en_eng">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index_por.html" id="en_por">PT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- ============END HEADER AREA==============-->
+
+    <!-- ============Modal exit area==============-->
+    <div class="modal fade" id="exitModal" tabindex="-1" aria-labelledby="exitModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exitModalLabel">EXIT</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Thanks for your visit.</p>
+                </div>
+                <div class="modal-footer">
+                    <input type="button" class="btn btn-dark btn-md text-white" id="closeWindow" value="Exit"
+                        onClick="window.location='http://google.com'">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============End modal exit area==============-->
+
+    <!-- ============Start banner area==============-->
+    <div class="container">
+        <div class="row" id="home">
+            <div class="col-md-6 mt-5">
+                <h3 class="title-text">Hey</h3>
+                <h1 class="title-text text-uppercase font-weight-bold mt-3">I'm Alex</h1>
+                <h4 class="title-text text-uppercase mt-3">Multimedia Student</h4>
+                <div class="site-buttons">
+                    <a href="#contact" class="btn button primary-button text-uppercase mt-4 mb-2 pt-2 pb-2 pl-5 pr-5"
+                        role="button" id="hireButton">Hire me</a>
+                    <br><br>
+                    <audio controls preload="metadata" style="width:250px;">
+                        <source src="./audio/audioSample1.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+            <div class="col-md-6" id="banner-image">
+                <img src="./img/banner/banner-image.png" alt="Imgem Inicial">
+            </div>
+        </div>
+    </div>
+    <!-- ============End banner area==============-->
+
+    <!-- ============About Area==============-->
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-md-6 mt-5 mb-4" id="about-image">
+                <img src="./img/about-us.png" alt="About Us">
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-uppercase font-weight-bold pt-5" id="about-title">
+                    Let me <br> introduce <br> myself
+                </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas sed explicabo dolorum sequi dolor,
+                    ipsa eius. Voluptate, enim dolor. Reiciendis? <br>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique ipsam laborum
+                    maiores modi, id libero. Corporis, sit veniam molestias hic, perferendis nesciunt beatae
+                    consequatur dicta, enim facilis minus deserunt in ad corrupti? Consequuntur, voluptates
+                    corporis repudiandae recusandae laborum eaque mollitia omnis fugiat, quisquam molestias
+                    commodi minus quis qui rerum quibusdam?
+                </p>
+                <a href="./cv/cv-sample.pdf" download="cv-sample.pdf" target="_blank"
+                    class="btn button primary-button text-uppercase pb-2 pl-5 pr-5" role="button">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!-- ============End About Area==============-->
+
+    <!-- ==============Skills Area================-->
+    <div class="container">
+        <div class="row" id="skills">
+            <div class="col-lg-12 mt-5 text-center">
+                <h1 class="text-uppercase">My Skills</h1>
+                <p class="mt-4 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde minima expedita
+                    nihil porro
+                    at ullam aspernatur nisi harum beatae, error necessitatibusLorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Similique ipsam laborum maiores modi, id libero. Corporis, sit veniam molestias
+                    hic, perferendis nesciunt beatae consequatur dicta
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container single-skill-icones">
+        <div class="row justify-content-center">
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo1.png" alt="Adobe Photoshop">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo2.png" alt="Adobe XD">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo3.png" alt="Adobe Illustrator">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo4.png" alt="Bootstrap">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo5.png" alt="Java">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo6.png" alt="C++">
+            </div>
+
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo7.png" alt="HTML">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo8.png" alt="CSS">
+            </div>
+            <div class="col-md-3 single-skill">
+                <img src="./img/brands/logo9.png" alt="JavaScript ">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 list_skills">
+                <ul class="list-group ">
+                    <li class="list-group-item border-primary">Adobe Photoshop</li>
+                    <li class="list-group-item border-danger">Adobe XD</li>
+                    <li class="list-group-item border-warning">Adobe Illustrator</li>
+                    <li class="list-group-item border-info">Bootstrap</li>
+                    <li class="list-group-item border-primary">Java</li>
+                    <li class="list-group-item border-secondary">C++</li>
+                    <li class="list-group-item border-warning">HTML</li>
+                    <li class="list-group-item border-success">CSS</li>
+                    <li class="list-group-item border-primary">JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============End Skills Area==============-->
+
+    <!-- ============Services Area==============-->
+    <div class="container">
+        <div class="row" id="services">
+            <div class="col-lg-12 mt-5 text-center">
+                <h1 class="text-uppercase">Services Offers</h1>
+                <p class="mt-4 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde minima expedita nihil porro
+                    at ullam aspernatur nisi harum beatae, error necessitatibus at ullam aspernatur nisi harum beatae,
+                    error necessitatibusLorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Similique ipsam l
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6 col-md-3 pr-2 mr-auto mb-3">
+                <div class="services text-center">
+                    <img src="./img/services/s1.png" alt="Imagem Youtube" class="img-responsive center-block"
+                        title="Service 1" id="service_1" data-videourl="https://www.youtube.com/embed/AT6oSIDbGkw">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Service 1</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi
+                            perferendis, at eos inventore quos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 pr-2 mr-auto mb-3">
+                <div class="services text-center">
+                    <img src="./img/services/s1.png" alt="Imagem Youtube" class="img-responsive center-block"
+                        title="Service 2" id="service_2" data-videourl="https://www.youtube.com/embed/pW9O8uTWiYI">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Service 2</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi
+                            perferendis, at eos inventore quos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 pr-2 mr-auto mb-3">
+                <div class="services text-center">
+                    <img src="./img/services/s1.png" alt="Imagem Youtube" class="img-responsive center-block"
+                        title="Service 3" id="service_3" data-videourl="https://www.youtube.com/embed/h69SbAxjiQY">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase font-mulish">Service 3</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi
+                            perferendis, at eos inventore quos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3 pr-2 mr-auto mb-3">
+                <div class="services text-center">
+                    <img src="./img/services/s1.png" alt="Imagem Youtube" class="img-responsive center-block"
+                        title="Service 4" id="service_4" data-videourl="https://www.youtube.com/embed/dJ-04R_Zw6M">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase font-mulish">Service 4</h5>
+                        <p class="card-text text-secondary">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi
+                            perferendis, at eos inventore quos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============End Services Area==============-->
+
+    <!-- ============Portfolio Area==============-->
+
+    <section class="portfolio-area" id="portfolio">
+        <div class="container">
+            <div class="project-title pb-5 text-center">
+                <h1 class="text-uppercase title-h1">Recently Done Project</h1>
+                <p class="mt-4 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde minima expedita
+                    nihil porro
+                    at ullam aspernatur nisi harum beatae, error necessitatibusLorem ipsum, dolor sit amet consectetur
+                </p>
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="active" id="btn1" data-filter="*">All</button>
+                <button type="button" data-filter=".popular">Popular</button>
+                <button type="button" data-filter=".latest">Latest</button>
+                <button type="button" data-filter=".following">Following</button>
+                <button type="button" data-filter=".upcoming">Upcoming</button>
+            </div>
+            <br><br>
+
+            <div class="row grid">
+                <div class="col-md-3 element-item latest">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/portfolio/p1.jpg">
+                                <img src="./img/portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Minimal Design</h4>
+                            <span class="text-secondary">Latest, Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/portfolio/p2.jpg">
+                                <img src="./img/portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Vintage Camera</h4>
+                            <span class="text-secondary">Popular, Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 element-item popular">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/portfolio/p3.jpg">
+                                <img src="./img/portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Best Friends</h4>
+                            <span class="text-secondary">Popular, Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 element-item upcoming">
+                    <div class="our-project">
+                        <div class="img">
+                            <a class="test-popup-link" href="./img/portfolio/p4.jpg">
+                                <img src="./img/portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="title py-4">
+                            <h4 class="text-uppercase">Best Beer</h4>
+                            <span class="text-secondary">Upcoming, Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row grid">
+                    <div class="col-md-3 element-item upcoming">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">
+                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Delicious Drink</h4>
+                                <span class="text-secondary">Upcoming, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p6.jpg">
+                                    <img src="./img/portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Multi Colored</h4>
+                                <span class="text-secondary">Following, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">
+                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Biometric Fingerprint</h4>
+                                <span class="text-secondary">Following, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 element-item following">
+                        <div class="our-project">
+                            <div class="img">
+                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">
+                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="title py-4">
+                                <h4 class="text-uppercase">Test Drone</h4>
+                                <span class="text-secondary">Following, Portfolio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+        </div>
+    </section>
+
+    <!-- ============End Portfolio Area==============-->
+
+    <!-- ============Clients Say About Me Area==============-->
+    <section class="clients-area" id="clients">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="about-title">
+                        <h1 class="text-uppercase title-h1">What Clients Say About Me</h1>
+                        <p class="para">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus non praesentium
+                            voluptate cum molestiae totam dolor repudiandae officiis est animi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container carousel py-lg-5">
+            <div class="owl-carousel owl-theme">
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">John Martin</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mac Hill</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t3.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Anna Baker</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t4.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Mark Rudolph</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t5.jpg" alt="img1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Jimmy Joe</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+                <div class="client row">
+                    <div class="col-md-12 col-lg-4 client-img">
+                        <img src="./img/testimonials/t6.jpg" alt="img2" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client">
+                        <h4 class="text-uppercase">Alfred McQuarrie</h4>
+                        <span class="text-muted"><i class="far fa-clock"></i> Janeiro de 2020 15H00 </span>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia in est iusto,
+                            iure quos aliquam.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ============End Clients Say About Me Area==============-->
+
+    <!-- ============ Contact Area==============-->
+    <div class="container-fluid contact-area">
+        <div class="row">
+            <div class="col-lg-12 text-center mt-5 mb-5" id="contact">
+                <h4 class="text-uppercase mb-3">Let's get in touch</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, dolore?
+                </p>
+            </div>
+        </div>
+
+        <div class="container contact-area">
+            <div class="row">
+                <div class="col-md-6 mb-5 mt-4">
+                    <form>
+                        <div class="input-textbox">
+                            <input type="text" id="txtName" class="form-control mb-3" placeholder="Name">
+                            <input type="text" id="txtEmail" class="form-control mb-3" placeholder="Email">
+                            <textarea class="form-control mb-3" id="txtInput" rows="4" placeholder="Your text here..."
+                                style="resize: none;"></textarea>
+
+                            <a class="btn button primary-button text-uppercase btn-submit mt-3 text-center"
+                                id="btn-submit" role="button" href="mailto:alexandre.luis@ipcbcampus.pt">Send Email</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-6 mb-5 mt-4" id="formInfo">
+                    <h4>alexL;</h4>
+                    <br>
+                    <p>Av. do Empresário,<br>
+                        Campus da Talagueira,<br>
+                        Zona do Lazer,<br>
+                        6000-767 Castelo Branco<br>
+                        alexandre.luis@ipcbcampus.pt<br>
+                        272 456 789</p>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3064.4418109593707!2d-7.514567984622169!3d39.81951097943908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d5ea6bb2280e1%3A0x1c460157bc4b46c8!2sEscola%20Superior%20de%20Tecnologia%20-%20Instituto%20Polit%C3%A9cnico%20de%20Castelo%20Branco!5e0!3m2!1spt-PT!2spt!4v1609602132351!5m2!1spt-PT!2spt"
+                        width="300" height="100" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============End Contact Area==============-->
+
+    <footer class="footer-area">
+        <div class="site-logo text-center mb-3 mt-5">
+            <a href="#home" id="img_logotipo_footer"><img src="./img/logo.png" alt="Logótipo"></a>
+        </div>
+        <div class="social text-center">
+            <h5 class="text-uppercase font-weight-bold mb-1">Follow Me</h5>
+            <a target="_blank" href="https://www.facebook.com/" title="facebook"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://www.youtube.com/" title="Youtube"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://twitter.com/" title="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="text-center">
+            <p> Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Alex
+            </p>
+        </div>
+    </footer>
+
+    <!--JQUERY JS FILE-->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+
+    <!--BOOTSTRAP JS FILE-->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--ISOTOPE JS FILE-->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--MAGNIFIC POPUP JS FILE-->
+    <script src="./vendor/magnificPopup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--OWL CAROUSEL JS FILE-->
+    <script src="./vendor/owlCarousel/js/owl.carousel.min.js"></script>
+
+    <!--YOUTUBE-OVERLAY JS FILE-->
+    <script src="./vendor/youtubeOverlay/js/youtube-overlay.js"></script>
+
+    <!--CUSTOM MAIN JS FILE-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

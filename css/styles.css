@@ -1,0 +1,331 @@
+:root {
+    --primary-color: #124559;
+    --primary-color2: #598392;
+    --title-color: #141313;
+    --text-color: #777777;
+    --draker-gray: #575757;
+    --border-color: #201f1f17;
+    --gradient-color: linear-gradient(90deg, #124559 0%, #598392 100%);
+    --gradient-color2: linear-gradient(90deg, #598392 0%, #124559 100%);
+    --shadow-color:0px 10px 30px rgba(118,85,225,0.3);
+    --box-shadow:0px 10px 30px rgba(57,56,61,0.205);
+    --box-shadow-skills:0px 2px 6px rgba(57,56,61,0.205);
+    --mulish: 'Mulish', cursive;
+}
+
+body {
+    font-family: var(--mulish);
+    background: url(../img/banner/home-banner.png);
+    background-repeat: no-repeat;
+}
+
+/*NAV MENU*/
+#en_eng,#en_por{
+    color: var(--primary-color2);
+}
+
+.header_area .nav-item .nav-link{
+    padding: .6rem;
+    color:var(--title-color);
+}
+
+.header_area .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px!important;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding-left:205px;
+    padding-right:205px;
+    background: white;
+    box-shadow: var(--box-shadow);
+    z-index: 2;
+    transition: background 1s ease;
+}
+/*END NAV MENU*/
+
+/*----Lógotipo----*/
+
+div #img_logotipo img {
+    width: auto;
+    height: 35px;
+}
+
+div #img_logotipo_footer img {
+    width: auto;
+    height: 25px;
+}
+
+/*HOME AREA*/
+
+#home{
+    margin-top: 15rem;
+}
+
+
+/*BANNER AREA*/
+
+/*----Imagens de Apresenção e Sobre----*/
+#about {
+    margin-top: 15rem; 
+}
+
+
+h1.title-text {
+    font-size: 50px;
+}
+
+h4.title-text{
+    font-size: 30px;
+}
+
+div #banner-image img, #about-image img {
+    width: auto;
+    height: 430px;
+    margin-top: 15px;
+}
+
+div #about-title {
+    display: block;
+    letter-spacing: 10px;
+}
+
+.button.primary-button {
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-color: var(--gradient-color);
+}
+
+
+/*skills area*/
+#skills {
+    margin-top: 16rem; 
+}
+
+.list_skills{
+    display: none;
+}
+
+div.single-skill {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    margin: 15px;
+    width: auto;
+    height: 150px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+div.single-skill img {
+    padding-top: 25px;
+}
+
+div.single-skill:hover {
+    box-shadow: var(--box-shadow-skills);
+    transform: scale(1.1);
+}
+
+
+/*SERVICES AREA*/
+#services {
+    margin-top: 16rem; 
+}
+
+div .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding-top: 2rem;
+    transition: box-shadow .9s ease;
+}
+
+.services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.services img:hover{
+    transform:scale(1.2);
+}
+/*END SERVICES AREA*/
+
+/*PROJECT AREA*/
+#portfolio {
+    margin-top: 20rem; 
+}
+
+.portfolio-area .button-group button{
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}
+
+.portfolio-area .grid{
+    margin: 5px auto;
+}
+
+
+.portfolio-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/*END PROJECT AREA*/
+
+/*CLIENTS AREA*/
+#clients {
+    margin-top: 15rem; 
+}
+
+
+.clients-area .about-title p {
+    padding: 1rem rem;
+}
+
+.clients-area .client {
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0;
+}
+
+.clients-area .client .client-img {
+    padding: 2rem;
+}
+
+.clients-area .client .about-client {
+    padding-top: 2rem;
+}
+
+.clients-area .client .about-client p {
+    font-size: 16px;
+}
+
+.clients-area .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.clients-area .owl-carousel .owl-dots .owl-dot.active span {
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+
+/*END CLIENTS AREA*/
+
+/*CONTACT AREA*/
+/*.contact-area {
+    margin-top: 10rem; 
+}*/
+
+div.container-fluid.contact-area {
+    background: url(../img/subscribe-bg2.png) no-repeat;
+    background-size: cover;
+}
+
+#contact h4, #contact p, #formInfo p, #formInfo h4, .contact-area form .input-textbox textarea::placeholder {
+    color: whitesmoke;
+}
+
+.contact-area form .input-textbox input {
+    width: 85%;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+}
+
+.contact-area form .input-textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.contact-area form .input-textbox textarea {
+    width: 85%;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+}
+
+form #btn-submit {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+}
+
+form #btn-submit:hover {
+    background: var(--primary-color2);
+    color: white;
+}
+
+/*END CONTACT AREA*/
+
+footer.footer-area {
+    margin-top: 30px;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    background: url(../img/footer-bg.png)no-repeat;
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+footer.footer-area .social a:hover>i {
+    color: var(--draker-gray);
+}
+
+@media (max-width: 1107px){
+    div #banner-image img, #about-image img {
+        height: 330px;
+        margin-top: 80px;
+    }
+
+    .navbar_fixed{
+        padding-left:60px;
+        padding-right:60px;
+
+    }
+}
+
+@media (max-width: 756px){
+    div #banner-image img, #about-image img {
+        display: none;
+    }
+}
+
+@media (max-width:520px){
+   .single-skill-icones {
+        display: none;
+      }
+    .list_skills{
+        display: inline-block;
+        margin: 5px auto;
+    }
+    iframe{
+        display: none;
+    }
+
+}
